@@ -32,7 +32,7 @@ struct ConfigOption {
 /*
  *Config options and default values
  */
-bool configFullscreen            = false;
+bool configFullscreen            = true;
 // Keyboard mappings (scancode values)
 #ifndef TARGET_RG351
 unsigned int configKeyA          = 0x26;
